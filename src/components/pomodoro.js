@@ -10,7 +10,7 @@ function Pomodoro() {
   const [displayMessage, setDisplayMessage] = useState(false);
 
   useEffect(() => {
-    if (cycles) {
+    if (cycles > 0) {
       let interval = setInterval(() => {
         clearInterval(interval);
         if (seconds === 0) {
