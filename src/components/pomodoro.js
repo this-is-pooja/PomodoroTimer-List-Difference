@@ -1,16 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Box, HStack, Text, Input } from "@chakra-ui/react"
-
-const styles = {
-  listHead: {
-    borderRadius: "8px",
-    color: "#008000",
-    border: "1px solid #008000",
-    width: "6rem",
-    padding: "8px",
-    marginBottom: "1rem"
-  }
-}
+import { Box, HStack, Input } from "@chakra-ui/react"
 
 function Pomodoro() {
 
